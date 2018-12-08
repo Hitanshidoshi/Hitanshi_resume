@@ -55,7 +55,9 @@ b.max-bold{ font-weight: 700; }
 body.navbar-more-show  {
 	overflow: hidden;
 }
-
+section{
+  padding: 55px 0;
+}
 .margin-t-10{ margin-top: 10px; }
 
 .margin-b-30{ margin-bottom: 30px; }
@@ -236,7 +238,6 @@ body.navbar-more-show  {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
-
 
 /* ABOUT SECTION */
 .about .img-about img {
