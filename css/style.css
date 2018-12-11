@@ -183,6 +183,14 @@ section{
 }
 
 }
+@media (min-width: 300px) and (max-width: 766px) {
+  .nav > li > a{
+    padding-top:10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 8px;
+  }
+}
 /* ---------------------------------
 4. INTRO SECTION
 --------------------------------- */
@@ -191,7 +199,7 @@ section{
   padding-top: 200px;
   position: relative;
   margin-top: 0px;
-   background-size:cover;
+  background-size:cover;
 	z-index: 1;
   background-image: url(../images/slider-3-1920x1080.jpg);
 
@@ -203,7 +211,7 @@ section{
 .intro-section:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
 	height: 150px; z-index: -1; background: #fff; }
 
-.intro{ padding: 0 20px; margin-top: 100px; text-align: center; background: #fff; }
+.intro{ padding: 0 20px; margin-top: 100px; text-align: center; background: #fff;width: auto;}
 
 .intro .profile-img{ height: 200px; width: 200px; border-radius: 100px; margin: 0 auto;
 	overflow: hidden; position: relative; top: -100px; margin-bottom: -70px;  }
@@ -239,7 +247,44 @@ section{
   -webkit-font-smoothing: antialiased;
 }
 
+.row1{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 /* ABOUT SECTION */
+.background-2 {
+  background-color: #fff;
+}
+.about{
+  padding-bottom: 111px;
+}
+.head-section{
+  position: relative;
+  margin-bottom: 85px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.about .bnt-about a{
+  box-shadow: 1px 2px 3px 0 #635c5c4d;
+  background: #f3f3f3;
+  border: 0;
+  padding: 11px 15px;
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 30px;
+  outline: none;
+  text-decoration: none;
+}
+.about .img-about {
+  position: relative;
+  z-index: 1;
+}
 .about .img-about img {
     position: relative;
     z-index: 1;
