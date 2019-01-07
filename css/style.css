@@ -2015,6 +2015,17 @@ td, th {
 
 }
 
+@media (max-width: 767px){
+  .timeline .marker-head i {
+    width: 55px;
+    height: 55px;
+    margin-left: -25px;
+    font-size: 36px;
+    line-height: 63px;
+    margin-bottom: -60px;
+  }
+}
+
 /*------------------------------------------------------------------
     [Work Experience]
 ------------------------------------------------------------------*/
