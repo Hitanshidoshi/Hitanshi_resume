@@ -792,8 +792,8 @@ button{
   background-attachment: fixed;
   background-position: center center;
 	z-index: 1;
-  background-image: url(../images/IMG_5872.jpg);
-  overflow-x: hidden;
+  background-image: url(IMG_5872.jpg);
+  /* overflow-x: hidden; */
 }
 
 
