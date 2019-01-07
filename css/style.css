@@ -29,7 +29,7 @@ body {
     font-weight: 300;
     line-height: 1.625em;
     position: relative;
-
+    /* overflow-x: hidden; */
 }
 
 h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{
@@ -792,8 +792,7 @@ button{
   background-attachment: fixed;
   background-position: center center;
 	z-index: 1;
-  background-image: url(IMG_5872.jpg);
-  /* overflow-x: hidden; */
+  /* background-image: url(../images/IMG_5872.jpg); */
 }
 
 
@@ -804,7 +803,8 @@ button{
   bottom: 0;
   left: 0;
 	right: 0;
-  background: rgba(0,0,0, .2);
+  /* background: rgba(0,0,0, .2); */
+  background-image: url(../images/IMG_5872.jpg);
 }
 
 .intro-section:after{
