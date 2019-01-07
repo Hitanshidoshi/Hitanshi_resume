@@ -791,7 +791,7 @@ button{
   background-attachment: fixed;
   background-position: center center;
 	z-index: 1;
-  background-image: url(../images/01.jpg);
+  background-image: url(../images/IMG_5872.jpg);
 }
 
 
@@ -2009,17 +2009,6 @@ td, th {
   color: white;
   line-height: 89px;
 
-}
-
-@media (max-width: 767px){
-  .timeline .marker-head i {
-    width: 55px;
-    height: 55px;
-    margin-left: -25px;
-    font-size: 36px;
-    line-height: 63px;
-    margin-bottom: -60px;
-  }
 }
 
 /*------------------------------------------------------------------
