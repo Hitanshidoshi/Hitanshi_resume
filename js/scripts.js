@@ -1,3 +1,5 @@
+
+
 var Layout = function () {
 
     // detect mobile device
@@ -221,3 +223,9 @@ $(document).ready(function() {
     })
   })
 })(jQuery)
+
+// $(document).ready(function () {
+//   $(".nav li").removeClass("active");
+//   $("li.certi").removeClass("active");
+//   $(this).addClass("active");
+// });

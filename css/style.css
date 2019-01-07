@@ -6,7 +6,7 @@ html, body {
 
     font-size: 100%;
     height: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     margin: 0px;
     padding: 0px;
     touch-action: manipulation;
@@ -2009,6 +2009,17 @@ td, th {
   color: white;
   line-height: 89px;
 
+}
+
+@media (max-width: 767px){
+  .timeline .marker-head i {
+    width: 55px;
+    height: 55px;
+    margin-left: -25px;
+    font-size: 36px;
+    line-height: 63px;
+    margin-bottom: -60px;
+  }
 }
 
 /*------------------------------------------------------------------
